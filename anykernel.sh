@@ -1,18 +1,18 @@
 ### AnyKernel3 Ramdisk Mod Script
 ## osm0sis @ xda-developers
-
+### shout out to Vaz15k, basing this anykernel3 fork on his
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string= Squeak Kernel || by Vaz15K
+kernel.string= GlowingKernel | made with love by ductho3
 do.devicecheck=0
 do.soccheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.soc=s5e8835
-supported.versions=13, 14
+device.soc=s5e8845
+supported.versions=14, 15, 16
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
